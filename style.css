@@ -81,28 +81,28 @@ body::-webkit-scrollbar-thumb {
 }
 
 .waves {
-    z-index: 999;
+    z-index: 15;
 }
 
 .blob {
     position: absolute;
     transform: translateY(-40%);
-    z-index: 5;
+    z-index: 777;
 }
 
 .blob-content {
-    z-index: 6;
+    z-index: 888;
     text-align: center;
 }
 
 .blob-section {
-    z-index: 6;
+    z-index: 999;
     transform: translateY(-90%);
 }
 
 .gigachad {
     width: 160px;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .instaDM {
