@@ -4,6 +4,14 @@
 /* font-family: 'Abril Fatface', cursive; */
 /* font-family: 'Nunito', sans-serif; */
 
+:root {
+    overflow-x: hidden;
+}
+
+* { 
+    overflow-x: hidden;
+}
+
 body{
     background: #FF0066;
     font-family: 'Nunito', sans-serif;
