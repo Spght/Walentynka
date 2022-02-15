@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;800&display=swap');
+/* font-family: 'Inconsolata', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:ital,wght@0,400;0,700;1,800&display=swap');
+/* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Nunito', sans-serif; */
+
+body{
+    background: #FF0066;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main {
+    margin-top: 150px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #8d0038;
+    border-radius: 10px;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 100px;
+  }
+
+.custom-shape-divider-top-1644915925 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1644915925 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 132px;
+}
+
+.custom-shape-divider-top-1644915925 .shape-fill {
+    fill: #BB004B;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1644915925 svg {
+        width: calc(100% + 1.3px);
+        height: 104px;
+    }
+}
+
+.waves {
+    z-index: 999;
+}
+
+.chika-dance {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: auto;
+}
+
+.blob {
+    position: absolute;
+    transform: translateY(-40%);
+    z-index: 1;
+}
+
+.blob-content {
+    z-index: 5;
+    text-align: center;
+}
+
+.blob-section {
+    transform: translateY(-90%);
+}
+
+.gigachad {
+    width: 160px;
+    z-index: 999;
+}
+
+.instaDM {
+    width: 350px;
+    border-radius: 15px;
+    margin: 40px 0;
+    border: 4px solid #BB004B;
+}
+
+.DMgallery {
+    transform: translateY(-30%);
+    z-index: 999;
+}
+
+.DMgallery h1 {
+    font-family: 'Abril Fatface', cursive; 
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.Playlist {
+    font-size: x-large;
+    transform: translateY(-30%);
+    z-index: 999;
+    margin: 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer {
+    position: absolute;
+    transform: translateY(-80%);
+}
+
+iframe {
+    border-radius: 15px;
+    border: 4px solid #BB004B;
+}
